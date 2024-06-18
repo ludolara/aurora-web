@@ -102,7 +102,7 @@ export const Header = () => {
         <h1 className="scroll-m-20 text-8xl font-extrabold tracking-tight lg:text-9xl header-title">
           A<span className='header-title-span'>U</span>RO<span className='header-title-span'>R</span>A
         </h1>
-        <h2 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-4xl header-subtitle">
+        <h2 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-4xl header-subtitle">
             Action-Reasoning-Object-Attribute
         </h2>
         <NavigationMenuDemo />

@@ -13,7 +13,7 @@ const Section = ({ title, hasTitle = true, children }: any) => {
 
 export const Body = () => {
   return (
-    <main className='main'>
+    <main className='px-5 py-5 lg:px-40 lg:py-10'>
       <Section title="Abstract" hasTitle={false}>
         <p className="leading-7 [&:not(:first-child)]:mt-6 text-justify">
             An image editing model should be able to perform diverse edits, ranging from object replacement and changing attributes or style to performing actions or movements, which require various forms of reasoning. Current general instruction-guided editing models have significant shortcomings with action and reasoning-centric edits. Object, attribute, or stylistic changes can be learned from visually static datasets. However, high-quality data for action and reasoning-centric edits is scarce and must come from entirely different sources that cover physical dynamics, temporality, and spatial reasoning.
